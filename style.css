@@ -1,0 +1,30 @@
+/* CSS stylesheet */
+
+body {
+  text-align: center;
+}
+
+/* Product Div */
+#productDiv {
+  background-color: lightgray;
+  /* width: 50%; */
+}
+#productNameDiv {
+  color: blue;
+}
+#threeProductsDiv {
+  background-color: lightcyan;
+}
+
+/* Quantity Div */
+#quantityDiv {
+  /* width: 50%; */
+  /* float: right; */
+}
+.quantityInputDiv {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 250px;
+}
