@@ -32,14 +32,15 @@ function calculateCost(){
   // document.getElementById("quantityInputThree").value = "";
 
   console.log("Your order total is $" + (productOneTotalCost + productTwoTotalCost + productThreeTotalCost) + ".");
-  let cartTotal = productOneTotalCost + productTwoTotalCost + productThreeTotalCost;
-  document.getElementById("cartTotal").innerHTML; 
+  cartTotal = productOneTotalCost + productTwoTotalCost + productThreeTotalCost;
+  document.getElementById("cartTotal").innerHTML = "The cart total is $" + cartTotal + "."; 
   
   document.getElementById("quantityInputOne").value = "";
   document.getElementById("quantityInputTwo").value = "";
   document.getElementById("quantityInputThree").value = "";
 }
+// Step 4: Make function work on button click: DONE
 
-// Step 4: Make function work on button click: IN PROGRESS
-// Step 5: 
+// Step 5: Diplay the total cost to HTML: DONE
+// Step 6: Fix CSS: IN Progress
 // Project: IN PROGRESS
