@@ -42,5 +42,5 @@ function calculateCost(){
 // Step 4: Make function work on button click: DONE
 
 // Step 5: Diplay the total cost to HTML: DONE
-// Step 6: Fix CSS: IN Progress
+// Step 6: Fix CSS: IN PROGRESS
 // Project: IN PROGRESS
