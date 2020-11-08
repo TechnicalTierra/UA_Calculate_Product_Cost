@@ -28,3 +28,9 @@ body {
 input {
   width: 250px;
 }
+/* Button Div */
+
+/* Paragraph Div (that will display the total cost)*/
+#cartTotal {
+  background-color: pink;
+}

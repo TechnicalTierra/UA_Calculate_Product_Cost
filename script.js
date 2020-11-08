@@ -8,33 +8,38 @@ const productThreeCost = 50; // shoes
 // let quantityInputOne = document.getElementById("quantityInputOne").value;
 // let quantityInputTwo = document.getElementById("quantityInputTwo").value;
 // let quantityInputThree = document.getElementById("quantityInputThird").value;
-
+//--
 // const productOneTotalCost = productOneCost * parseInt(quantityInputOne);
 // const productTwoTotalCost = productTwoCost * parseInt(quantityInputTwo);
 // const productThreeTotalCost = productThirdCost * parseInt(quantityInputThree);
 // let cartTotal;
 
-// Step 3: function to multiply product cost times quantity: IN PROGRESS
+// Step 3: create function to multiply product cost times quantity: DONE
 function calculateCost(){
   let quantityInputOne = document.getElementById("quantityInputOne").value;
   const productOneTotalCost = productOneCost * parseInt(quantityInputOne);
-  console.log("Your total cost for Product #1 is $" + parseInt(productOneTotalCost));
-  document.getElementById("quantityInputOne").value = "";
+  console.log("Your total cost for " + quantityInputOne + " of Product #1 is $" + parseInt(productOneTotalCost) + ".");
+  // document.getElementById("quantityInputOne").value = "";
 
   let quantityInputTwo = document.getElementById("quantityInputTwo").value;
   const productTwoTotalCost = productTwoCost * parseInt(quantityInputTwo);
-  console.log("Your total cost for Product #2 is $" + parseInt(productTwoTotalCost));
-  document.getElementById("quantityInputTwo").value = "";
+  console.log("Your total cost for " + quantityInputTwo + " of Product #2 is $" + parseInt(productTwoTotalCost) + ".");
+  // document.getElementById("quantityInputTwo").value = "";
 
   let quantityInputThree = document.getElementById("quantityInputThree").value;
   const productThreeTotalCost = productThreeCost * parseInt(quantityInputThree);
-  console.log("Your total cost for Product #3 is $" + parseInt(productThreeTotalCost));
+  console.log("Your total cost for " + quantityInputThree + " of Product #3 is $" + parseInt(productThreeTotalCost) + ".");
+  // document.getElementById("quantityInputThree").value = "";
+
+  console.log("Your order total is $" + (productOneTotalCost + productTwoTotalCost + productThreeTotalCost) + ".");
+  let cartTotal = productOneTotalCost + productTwoTotalCost + productThreeTotalCost;
+  document.getElementById("cartTotal").innerHTML; 
+  
+  document.getElementById("quantityInputOne").value = "";
+  document.getElementById("quantityInputTwo").value = "";
   document.getElementById("quantityInputThree").value = "";
-
-  console.log( "Your order total is $" + (productOneTotalCost + productTwoTotalCost + productThreeTotalCost) + ".");
 }
-// 
 
-// Step 4: Display
+// Step 4: Make function work on button click: IN PROGRESS
 // Step 5: 
 // Project: IN PROGRESS
