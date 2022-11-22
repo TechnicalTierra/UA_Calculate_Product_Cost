@@ -2,44 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web store</title>
+  <title>TESTING</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header></header>
-  <main>
-    <div>
-      <div id="productDiv">
-        <div id="productNameDiv">
-          <h1>Product Name</h1>
-        </div>
-        <div id="threeProductsDiv">
-          <p>Product #1 $20</p>
-          <p>Product #2 $30</p>
-          <p>Product #3 $50</p>
-        </div>
-      </div>
-      <div id="quantityDiv">
-        <div class="quantityInputDiv">
-          <input id="quantityInputOne" type="number" placeholder="Enter the number of Product #1 you want">
-        </div>
-        <div class="quantityInputDiv">
-          <input id="quantityInputTwo" type="number" placeholder="Enter the number of Product #2 you want">
-        </div>
-        <div class="quantityInputDiv">
-          <input id="quantityInputThree" type="number" placeholder="Enter the number of Product #3 you want">
-        </div>
-        <div id="buttonDiv">
-          <button onclick="calculateCost()">Calculate Total</button>
-        </div>
-        <div>
-          <p id="cartTotal">The cart total is: $0.</p>
-        </div>
-      </div>
-    </div>
-  </main>
-  <footer></footer>
+  <h1>Quantity</h1>
+  
+  <label for="input1">
+    <input id="inputOne" type="number"> 
+  </label>
+
+  <label for="input2">
+    <input id="inputTwo" type="number"> 
+  </label>
+  <!-- <br /> -->
+
+  <!-- dropdown options
+    <select>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+  </select> -->
+
+  <!-- <br /> -->
+
+  <button id="cartTotalButton" onclick="addCartTotal()">Add Total</button>
+
+  <h2 id="cartTotalDisplay">Your cart total is:</h2>
+  
   <script src="script.js"></script>
 </body>
 </html>
