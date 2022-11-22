@@ -1,36 +1,15 @@
-/* CSS stylesheet */
-
 body {
-  text-align: center;
-}
-
-/* Product Div */
-#productDiv {
   background-color: lightgray;
-  /* width: 50%; */
-}
-#productNameDiv {
+} 
+h1 {
   color: blue;
 }
-#threeProductsDiv {
-  background-color: lightcyan;
-}
-
-/* Quantity Div */
-#quantityDiv {
-  /* width: 50%; */
-  /* float: right; */
-}
-.quantityInputDiv {
-  margin-bottom: 10px;
-}
-
 input {
-  width: 260px;
+  display: block;
+  margin-bottom: 1rem;
 }
-/* Button Div */
-
-/* Paragraph Div (that will display the total cost)*/
-#cartTotal {
-  background-color: pink;
+button {
+  background-color: rgb(170, 236, 236);
+  padding: 1rem 1rem;
+  margin-top: 1rem;
 }
